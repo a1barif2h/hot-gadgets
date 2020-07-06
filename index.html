@@ -2,126 +2,253 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hot Gadgets</title>
-    <!--BOOTSTRAP CSS LINK-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!--OUR CORE CSS LINK-->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hot Gadgets</title>
+  <!--BOOTSTRAP CSS LINK-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <!--OUR CORE CSS LINK-->
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <!--START HEADER SECTION-->
-    <header>
-        <div class="container">
-            <nav class="navbar navbar-light bg-white d-flex align-items-center">
-                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Product</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <!--END HEAHER SECTION-->
-
-    <!--START SLIDER SECTION-->
+  <!--START HEADER SECTION-->
+  <header>
     <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row align-items-center">
-                        <div class="col-md-5">
-                            <h1 class="font-weight-bold text-warning">MacBook Pro</h1>
-                            <p class="text-muted">Designed for those who defy limits and change the world, the new
-                                MacBook Pro is by
-                                far the most
-                                powerful notebook we’ve ever made. With an immersive 16-inch Retina display, superfast
-                                processors,
-                                next-generation graphics, the largest battery capacity ever in a MacBook Pro, a new
-                                Magic Keyboard, and
-                                massive storage, it’s the ultimate pro notebook for the ultimate user.</p>
-                            <button class="buy-now-button">Buy Now &#8594;</button>
-                        </div>
-                        <div class="col-md-7">
-                            <img src="images/banner-products/product-1.png" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row align-items-center">
-                        <div class="col-md-5">
-                            <h1 class="font-weight-bold text-primary">Echo (3rd Gen)- Smart speaker with Alexa- Charcoal
-                            </h1>
-                            <p class="text-muted">Meet Echo Dot - Our most popular smart speaker with a fabric design.
-                                It is our most
-                                compact smart
-                                speaker that fits perfectly into small spaces.</p>
-                            <button class="buy-now-button">Buy Now &#8594;</button>
-                        </div>
-                        <div class="col-md-7">
-                            <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row align-items-center">
-                        <div class="col-md-5">
-                            <h1 class="font-weight-bold text-warning">JBL Bar 2.1 Channel Bluetooth Soundbar Wireless
-                                Subwoofer</h1>
-                            <p class="text-muted">JBL Bar 2.1 soundbar has 300 watt output power, great audio
-                                performance, rich and
-                                deep bass from a 6.5
-                                inch wireless subwoofer, wireless audio streaming with bluetooth, HDMI / AUX / USB wired
-                                connections,
-                                JBL soundshift to instantly switch between sound from TV and sound from mobile phone or
-                                tablet PC..</p>
-                            <button class="buy-now-button">Buy Now &#8594;</button>
-                        </div>
-                        <div class="col-md-7">
-                            <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
+      <nav class="navbar navbar-light bg-white d-flex align-items-center">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" /></a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <!--END SLIDER SECTION-->
-    <!--BOOTSTRAP javaScript LINK-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
+  </header>
+  <!--END HEAHER SECTION-->
+
+  <!--START SLIDER SECTION-->
+  <section>
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+              <div class="col-md-5">
+                <h1 class="font-weight-bold text-warning">MacBook Pro</h1>
+                <p class="text-muted">
+                  Designed for those who defy limits and change the world, the
+                  new MacBook Pro is by far the most powerful notebook we’ve
+                  ever made. With an immersive 16-inch Retina display,
+                  superfast processors, next-generation graphics, the largest
+                  battery capacity ever in a MacBook Pro, a new Magic
+                  Keyboard, and massive storage, it’s the ultimate pro
+                  notebook for the ultimate user.
+                </p>
+                <button class="buy-now-button">Buy Now &#8594;</button>
+              </div>
+              <div class="col-md-7">
+                <img src="images/banner-products/product-1.png" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-5">
+                <h1 class="font-weight-bold text-primary">
+                  Echo (3rd Gen)- Smart speaker with Alexa- Charcoal
+                </h1>
+                <p class="text-muted">
+                  Meet Echo Dot - Our most popular smart speaker with a fabric
+                  design. It is our most compact smart speaker that fits
+                  perfectly into small spaces.
+                </p>
+                <button class="buy-now-button">Buy Now &#8594;</button>
+              </div>
+              <div class="col-md-7">
+                <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-5">
+                <h1 class="font-weight-bold text-warning">
+                  JBL Bar 2.1 Channel Bluetooth Soundbar Wireless Subwoofer
+                </h1>
+                <p class="text-muted">
+                  JBL Bar 2.1 soundbar has 300 watt output power, great audio
+                  performance, rich and deep bass from a 6.5 inch wireless
+                  subwoofer, wireless audio streaming with bluetooth, HDMI /
+                  AUX / USB wired connections, JBL soundshift to instantly
+                  switch between sound from TV and sound from mobile phone or
+                  tablet PC..
+                </p>
+                <button class="buy-now-button">Buy Now &#8594;</button>
+              </div>
+              <div class="col-md-7">
+                <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!--END SLIDER SECTION-->
+
+  <!--START PRODUCTS SECTION-->
+  <section id="products">
+    <div class="container">
+      <!--START SMARTPHONE SECTION-->
+      <article id="smartphone">
+        <div class="product-title d-flex justify-content-between align-items-center">
+          <h2 class="text-muted font-weight-bold">Smartphone</h2>
+          <a href="#" class="text-warning font-weight-bold">See All</a>
+        </div>
+        <div class="product">
+          <div class="card-deck text-center">
+            <div class="card">
+              <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Redmi 8A Dual</h5>
+                <p class="card-text text-justify text-muted font-weight-light">Redmi 8A Dual smartphone was launched on
+                  11th February 2020.
+                  The phone
+                  comes with a
+                  6.22-inch touchscreen display with a resolution of 720x1520 pixels and an aspect ratio of 19:9.</p>
+              </div>
+              <div class="card-footer">
+                <h5 class="font-weight-bold">$999</h5>
+                <button class="buy-now-button">Buy Now &#8594;</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Apple iPhone SE 2020</h5>
+                <p class="card-text text-justify text-muted font-weight-light">The iPhone SE (2020) is an unusual
+                  device,
+                  combining a
+                  throwback style
+                  with some
+                  modern internal components. It's virtually identical to the iPhone 8 from the outsidet.</p>
+              </div>
+              <div class="card-footer">
+                <h5 class="font-weight-bold">$799</h5>
+                <button class="buy-now-button">Buy Now &#8594;</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Samsung Galaxy M31 </h5>
+                <p class="card-text text-justify text-muted font-weight-light">The Samsung Galaxy M31 sports a big
+                  6.4-inch display and has
+                  a waterdrop
+                  notch at the
+                  top. It has thin bezels around the AMOLED display which helps it stand out among the competition.</p>
+              </div>
+              <div class="card-footer">
+                <h5 class="font-weight-bold">$699</h5>
+                <button class="buy-now-button">Buy Now &#8594;</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!--END SMARTPHONE SECTION-->
+
+      <!--START LAPTOP SECTION-->
+      <article id="laptop">
+        <div class="product-title d-flex justify-content-between align-items-center">
+          <h2 class="text-muted font-weight-bold">Laptop</h2>
+          <a href="#" class="text-warning font-weight-bold">See All</a>
+        </div>
+        <div class="product">
+          <div class="card-deck text-center">
+            <div class="card">
+              <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ASUS VivoBook S15</h5>
+                <p class="card-text text-justify text-muted font-weight-light">ASUS VivoBook S15 is an unconventional
+                  take on daily computing, with unique color-blocking design that tells the world that you go against
+                  the grain. It features the innovative ASUS ScreenPad™ 2.0 to improve multitasking and change the way
+                  you work with your laptop.</p>
+              </div>
+              <div class="card-footer">
+                <h5 class="font-weight-bold">$999</h5>
+                <button class="buy-now-button">Buy Now &#8594;</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Apple MacBook Pro</h5>
+                <p class="card-text text-justify text-muted font-weight-light">MacBook Pro elevates the notebook to a
+                  whole new level of performance and portability. Wherever your ideas take you, you’ll get there faster
+                  than ever with high‑performance processors and memory, advanced graphics, blazing‑fast storage, and
+                  more — all in a compact 3-pound package.</p>
+              </div>
+              <div class="card-footer">
+                <h5 class="font-weight-bold">$2799</h5>
+                <button class="buy-now-button">Buy Now &#8594;</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/laptop/product-3.png" card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">New XPS 13 Laptop</h5>
+                <p class="card-text text-justify text-muted font-weight-light">Introducing our newest XPS 13 laptop
+                  featuring a new expansive 16:10 display, 17% larger touchpad and 10th Gen Intel® processors.13-inch
+                  laptop designed with precision engineered details, from stunning materials to minimal footprint, with
+                  true unrivaled performance and 10th Gen Intel® Core™ processors.</p>
+              </div>
+              <div class="card-footer">
+                <h5 class="font-weight-bold">$999</h5>
+                <button class="buy-now-button">Buy Now &#8594;</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!--END LAPTOP SECTION-->
+    </div>
+  </section>
+  <!--END PRODUCTS SECTION-->
+  <!--BOOTSTRAP javaScript LINK-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

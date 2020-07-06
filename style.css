@@ -12,12 +12,20 @@ header nav ul li:hover a {
 
 /* START SLIDER SECTION */
 button.buy-now-button {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(54, 54, 54);
     color: white;
     padding: 10px 20px;
     text-transform: uppercase;
     border: none;
     border-radius: 10px;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+button.buy-now-button:hover {
+    background-color: rgb(0, 0, 0);
 }
 
 .carousel-indicators li {
@@ -30,3 +38,29 @@ button.buy-now-button {
 }
 
 /* END SLIDER SECTION */
+
+/* START PRODUCTS SECTION */
+section#products {
+    margin-top: 100px;
+}
+
+.product-title {
+    margin-bottom: 40px;
+}
+
+.product {
+    margin-bottom: 100px;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px lightgray;
+}
+
+.card-footer {
+    border: none;
+    background-color: #fff;
+}
+
+/* END PRODUCTS SECTION */
