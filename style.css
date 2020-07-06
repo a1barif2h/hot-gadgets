@@ -1,0 +1,11 @@
+/* START HADER SECTION */
+header nav ul li a {
+    color: #7F7F7F;
+    font-weight: bold;
+}
+
+header nav ul li:hover a {
+    color: #5a5959;
+}
+
+/* END HADER SECTION */
