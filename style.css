@@ -40,7 +40,8 @@ button.buy-now-button:hover {
 /* END SLIDER SECTION */
 
 /* START PRODUCTS SECTION */
-section#products {
+section#products,
+footer#footer {
     margin-top: 100px;
 }
 
@@ -64,3 +65,48 @@ section#products {
 }
 
 /* END PRODUCTS SECTION */
+
+/* START CATGORIES SECTION */
+#catagories {
+    margin-top: 120px;
+}
+
+.catagories-title {
+    margin-bottom: 80px;
+}
+
+hr {
+    border: none;
+    border-bottom: 5px solid orange;
+    width: 120px;
+    border-radius: 30px;
+    margin-top: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.img {
+    box-shadow: 5px 5px 20px lightgray;
+    border-radius: 10px;
+    border: 1px solid lightcyan;
+    width: 150px;
+    padding: 10px;
+}
+
+.img:hover a {
+    text-decoration: none;
+}
+
+/* END CATAGORIES SECTION */
+
+/* START CONTUCT US SECTION */
+#contuct-us {
+    background-color: #fceae8;
+    border-radius: 10px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+/* END CONTUCT US SECTION */
